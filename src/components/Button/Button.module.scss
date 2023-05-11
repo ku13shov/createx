@@ -1,0 +1,16 @@
+.btn {
+    width: 206px;
+    height: 52px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.play {
+    border-radius: 50%;
+    width: 52px;
+    background: url('../../assets/images/play.svg') no-repeat center/cover;
+    box-shadow: 0 0 0 16px rgba(255, 63, 58, 0.12);
+}

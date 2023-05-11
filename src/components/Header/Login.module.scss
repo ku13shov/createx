@@ -1,0 +1,21 @@
+.login {
+    background: none;
+    position: relative;
+    margin-left: 36px;
+    border: none;
+    font-weight: 700;
+    color: #424551;
+    padding: 0 0 0 28px;
+    cursor: pointer;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background: url('../../assets/images/profile.svg');
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
